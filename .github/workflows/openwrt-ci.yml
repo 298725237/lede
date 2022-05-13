@@ -65,11 +65,8 @@ jobs:
           CONFIG_OPENVPN_openssl_ENABLE_PORT_SHARE=y
           CONFIG_OPENVPN_openssl_ENABLE_SMALL=y
           CONFIG_PACKAGE_baidupcs-web=y
-          # CONFIG_PACKAGE_bash is not set
           CONFIG_PACKAGE_blkid=y
           CONFIG_PACKAGE_btrfs-progs=y
-          # CONFIG_PACKAGE_ca-certificates is not set
-          # CONFIG_PACKAGE_coreutils-nohup is not set
           CONFIG_PACKAGE_kmod-crypto-ccm=y
           CONFIG_PACKAGE_kmod-crypto-cmac=y
           CONFIG_PACKAGE_kmod-crypto-ctr=y
@@ -87,10 +84,7 @@ jobs:
           CONFIG_PACKAGE_kmod-lib-zstd=y
           CONFIG_PACKAGE_kmod-oid-registry=y
           CONFIG_PACKAGE_libattr=y
-          # CONFIG_PACKAGE_libcap-bin is not set
           CONFIG_PACKAGE_liblzo=y
-          # CONFIG_PACKAGE_libruby is not set
-          # CONFIG_PACKAGE_libyaml is not set
           CONFIG_PACKAGE_lsblk=y
           CONFIG_PACKAGE_luci-app-baidupcs-web=y
           CONFIG_PACKAGE_luci-app-cifs-mount=y
@@ -116,7 +110,6 @@ jobs:
           CONFIG_PACKAGE_qBittorrent-static=y
           CONFIG_PACKAGE_rp-pppoe-common=y
           CONFIG_PACKAGE_rp-pppoe-relay=y
-          # CONFIG_PACKAGE_ruby is not set
           CONFIG_PACKAGE_smartmontools=y
           CONFIG_QCOW2_IMAGES=y
           CONFIG_TARGET_IMAGES_GZIP=y
